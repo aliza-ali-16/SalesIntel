@@ -83,7 +83,7 @@ AI agents offer a more flexible approach:
 ## AI Agent Architecture
 
 The system uses seven specialized agents to process lead data:
-
+![alt text](workflow_architecture_1783315766402.png)
 ### 1. Manager Agent
 * **Purpose**: Coordinates the multi-agent pipeline and manages database persistence.
 * **Inputs**: Raw JSON arrays of customer data.
@@ -264,16 +264,6 @@ Requirement: Do NOT offer discounts. Use a product-integration strategy."
 * *Solution*: Implemented structured rule-based fallback functions within the Python and Node agents. If the Gemini API call fails, the agents automatically switch to high-quality template-based generators.
 
 ---
-
-## Future Work
-
-* **SMTP & WhatsApp Integrations**: Connect approved email drafts to SMTP mail relays and the WhatsApp Business API for direct outbound messaging.
-* **Salesforce & HubSpot Connectors**: Create bi-directional API endpoints to sync contact statuses with major CRM platforms automatically.
-* **Sentiment Analysis Agent**: Add an agent to scan customer replies and dynamically adjust lead scores.
-* **Predictive Forecasting Models**: Use historical conversion rates to build timeseries revenue forecasting agents.
-
----
-
 ## Conclusion
 
 The **AI Sales Intelligence Multi-Agent System** demonstrates how autonomous agents can streamline sales operations. By dividing data cleaning, lead scoring, strategy mapping, and email drafting tasks among specialized agents, the system automates low-leverage administrative work while maintaining high quality with human-in-the-loop controls. Its resilient dual-database design, embedded runtimes, and real-time updates make it a robust and scalable solution for modern sales organizations.
