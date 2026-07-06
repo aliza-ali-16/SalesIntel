@@ -155,7 +155,7 @@ The system uses seven specialized agents to process lead data:
 ## System Architecture
 
 The platform uses a decoupled, three-tier service architecture to ensure scalability, security, and developer flexibility:
-
+![alt text](system_architecture_clean_1783324726829.png)
 ```
 [Client Tier: React + Tailwind CSS] (Port 3000)
               │
